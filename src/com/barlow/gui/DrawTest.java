@@ -16,6 +16,11 @@ public class DrawTest {
 }
 
 class DrawFrame extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public DrawFrame() {
 		add(new DrawComponent());
 		pack();
@@ -24,6 +29,10 @@ class DrawFrame extends JFrame {
 }
 
 class DrawComponent extends JComponent {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private static final int DEFAULT_WIDTH = 400;
 	private static final int DEFAULT_HIGTH = 400;
 
