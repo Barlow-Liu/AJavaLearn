@@ -25,9 +25,10 @@ public class SocketTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}finally {
-			
-			
+
+
 		}
+		System.out.println("end");
 	}
 
 }
